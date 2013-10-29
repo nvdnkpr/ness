@@ -1,5 +1,3 @@
-exports = module.exports = ness;
-
 function ness(value) {
   if(this instanceof ness) {
     this.value = value;
@@ -15,3 +13,17 @@ ness.prototype.test = function() {
 ness.prototype.false = function() {
   return !!~[null, undefined, false].indexOf(this.value);
 };
+
+ness.prototype.and = function(other) {
+  return this.test() && ness(other).test();
+};
+
+ness.prototype.or = function(other) {
+  return this.test() || ness(other).test();
+};
+
+ness.prototype.not = function() {
+  return !this.test();
+};
+
+exports = module.exports = ness;
