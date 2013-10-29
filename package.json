@@ -6,7 +6,11 @@
     "bool",
     "boolean",
     "true",
-    "false"
+    "false",
+    "and",
+    "or",
+    "not",
+    "test"
   ],
   "author": "James Lee <amesee@outlook.com>",
   "main": "index",
