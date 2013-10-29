@@ -29,3 +29,6 @@ Any value that is not `null`, `undefined` or `false` is true.
     val = ness(undefined);
     val.test();  //=> false
 
+## LICENSE
+
+[MIT](http://opensource.org/licenses/MIT)
