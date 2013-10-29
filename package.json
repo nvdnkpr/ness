@@ -1,0 +1,20 @@
+{
+  "name": "ness",
+  "version": "0.0.0",
+  "description": "boolean evaluation in javascript done right",
+  "keywords": [
+    "bool",
+    "boolean",
+    "true",
+    "false"
+  ],
+  "author": "James Lee <amesee@outlook.com>",
+  "main": "index",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amesee/ness.git"
+  },
+  "devDependencies": {
+    "mocha": "~1.13.0"
+  }
+}
