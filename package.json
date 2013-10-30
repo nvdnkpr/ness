@@ -1,6 +1,6 @@
 {
   "name": "ness",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "boolean evaluation in javascript done right",
   "keywords": [
     "bool",

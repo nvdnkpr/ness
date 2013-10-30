@@ -128,3 +128,13 @@ describe('string', function() {
     assert.strictEqual(ness(false) + '', false + '');
   });
 });
+
+describe('value', function() {
+  it('converts to same primitive as true', function() {
+    assert.strictEqual(+ness('trueness'), +true);
+  });
+
+  it('converts to same primitive as false', function() {
+    assert.strictEqual(+ness(undefined), +false);
+  });
+});

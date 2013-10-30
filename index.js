@@ -30,4 +30,8 @@ ness.prototype.toString = function() {
   return this.test() + '';
 };
 
+ness.prototype.valueOf = function() {
+  return this.test();
+};
+
 exports = module.exports = ness;
