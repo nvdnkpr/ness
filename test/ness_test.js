@@ -118,3 +118,13 @@ describe('logical `not`', function() {
     assert.strictEqual(ness(false).not(), true);
   });
 });
+
+describe('string', function() {
+  it('converts to the same string as true', function() {
+    assert.strictEqual(ness(true) + '', true + '');
+  });
+
+  it('converts to the same string as false', function() {
+    assert.strictEqual(ness(false) + '', false + '');
+  });
+});

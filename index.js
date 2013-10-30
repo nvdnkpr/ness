@@ -26,4 +26,8 @@ ness.prototype.not = function() {
   return !this.test();
 };
 
+ness.prototype.toString = function() {
+  return this.test() + '';
+};
+
 exports = module.exports = ness;
